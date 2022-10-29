@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir" !important;
+  background: #333;
+}
+
+h3::placeholder{
+  background-color: blueviolet;
+}
+
+button.clear-tasks:hover{
+  border: 2px solid #007bff;
+}
+
+form button.btn{
+  color: hsl(123, 100%, 50%);
+}
+
+.list-group-item{
+  color: hsl(123, 100%, 50%);
+}
+
+.card-body > button{
+  font-weight: bold;
+}
+
+hr + h5{
+  color: #606b23;
+}
+
+/* input:disabled{
+  width: 40px;
+  height: 40px;
+} */
